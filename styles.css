@@ -1,0 +1,167 @@
+/***********************************HTML Elements ***************************************/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-weight: normal;
+    margin-bottom: 0;
+}
+h3{
+    letter-spacing: 2px;
+    margin-left: 12%;
+    margin-bottom: 3px;
+    margin-top: 15%;
+   
+}
+h5{
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+h6{
+    font-size: 17px;
+    margin-top: 15%;
+    margin-bottom: 1%;
+}
+hr{
+    width: 88%;
+    border-top: 3px solid #ada426;
+    border-bottom: none;
+    margin:0 0 0 auto ;
+    
+}
+
+
+
+/***********************************Classes ***************************************/
+.cv-container{
+    display: flex;
+}
+/***********************************Information Classes/Below Image ***************************************/
+.info{
+    background-color: #383434;
+    color: aliceblue;
+}
+.education-reference{
+    margin-left: 17%;
+    padding-bottom:3px ;
+}
+.education-reference h5{
+    margin-bottom: 0;
+}
+.education-reference p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.conact-detail{
+    margin-top: 10%;
+    padding-bottom: 0;
+    padding-top: 20%;
+}
+.detail{
+    background-color: #f5e611;
+    margin-top: 2%;
+}
+.conact-detail p {
+    margin-left: 17%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 10%;
+}
+.contact-description{
+    background-color: #786868;
+    font-size: 18px;
+
+}
+.contact-information{
+    font-size: 13px;
+    margin-top: 2%;
+
+}
+    
+/***********************************CV Description Classes ***************************************/
+.description{
+    width: 60%;
+    letter-spacing: 2px;
+    background-color: aliceblue;
+    /* padding-bottom: 3%; */
+}
+.description h3{
+    margin-left: 10%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+.name-title h4{
+    margin-top: 0;
+}
+.name-title{
+    background-color: #f5e611;
+    margin-top: 5%;
+    padding: 2%;
+    padding-left: 10%;    
+}
+.about-me, .work-experience,.software-skill{
+    margin-left: 10%;
+    margin-right: 5%;
+    border-top: solid 3px #383434;
+}
+.job1{
+   display: flex;
+   align-items: baseline;
+}
+.job1 p{
+    letter-spacing: 0;
+    
+}
+.job1 h4{
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+.years-of-experience{
+    width: 250px;
+    
+}
+
+.company{
+    margin-top: 2px;
+}
+.job-position{
+    padding-bottom: 3%;
+}
+
+
+.software-skill{
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 5%;
+}
+.skill{
+    margin: 3% 10% auto 15%;
+    letter-spacing: 0;
+    flex: 30%;
+    
+}
+
+.skill hr{
+    width: 30px;
+    border-top: 3px solid #abaeb3;
+    border-bottom: none;
+    
+    
+}
+.strength{
+    background-color:#383434 ;
+}
+.skill p{
+    margin-bottom: 1px;
+}
+/***********************************Media Queries ***************************************/
+@media (max-width:980px){
+    .job1, .software-skill{
+        flex-direction: column;
+    }
+    .skill {
+        margin-top: 1%;
+    }
+    
+}
